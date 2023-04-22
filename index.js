@@ -31,7 +31,7 @@ data.forEach(({ id, name, age, url }) => {
 
   const idPara = document.createElement("p");
   idPara.classList.add("card-content");
-  idPara.textContent = "ID ${}";
+  idPara.textContent = `ID ${id}`;
 
   cardBody.appendChild(title);
   cardBody.appendChild(subtitle);
